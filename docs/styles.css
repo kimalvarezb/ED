@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Exmaple of breakpoints for media query */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 568px) {
+  /* Styles */
+  .slideshow-container {
+  
+    width: 170%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* Smartphones (landscape) ----------- */
+  @media only screen and (min-width : 321px) {
+  /* Styles */
+  .slideshow-container {
+  
+    width: 170%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width : 320px) {
+  /* Styles */
+  .slideshow-container {
+  
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-width : 768px) and (max-width : 1024px) {
+  /* Styles */
+  .slideshow-container {
+  
+    width: 70%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+  .slideshow-container {
+  
+    width: 70%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+  /* Styles */
+  .slideshow-container {
+  
+    width: 70%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* Desktops and laptops ----------- */
+  @media only screen  and (min-width : 1224px) {
+  /* Styles */
+  .slideshow-container {
+  
+    width: 70%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* Large screens ----------- */
+  @media only screen  and (min-width : 1824px) {
+  /* Styles */
+  .slideshow-container {
+  
+    width: 70%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+   /* PIXEL  Styles */ 
+  @media only screen and (min-width : 320px) and (max-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  .slideshow-container {
+  
+    width: 130%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  @media only screen and (min-width : 320px) and (max-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  /* PIXEL  Styles */
+  .slideshow-container {
+  
+    width: 130%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* iPhone 5/SE ----------- */
+  @media only screen and (min-width: 320px) and (max-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  .slideshow-container {
+  
+    width: 175%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  @media only screen and (min-width: 320px) and (max-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  .slideshow-container {
+  
+    width: 175%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* iPhone 6, 7, 8 ----------- */
+  @media only screen and (min-width: 375px) and (max-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  .slideshow-container {
+  
+    width: 145%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  @media only screen and (min-width: 375px) and (max-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  .slideshow-container {
+  
+    width: 145%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* iPhone 6+, 7+, 8+ ----------- */
+  @media only screen and (min-width: 414px) and (max-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  .slideshow-container {
+  
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  @media only screen and (min-width: 414px) and (max-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  .slideshow-container {
+  
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  /* iPhone X ----------- */
+  @media only screen and (min-width: 375px) and (max-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  .slideshow-container {
+  
+    width: 145%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  @media only screen and (min-width: 375px) and (max-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  .slideshow-container {
+  
+    width: 145%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  
+  
+  /* Samsung Galaxy S5 ----------- */
+  @media only screen and (min-width: 360px) and (max-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  .slideshow-container {
+  
+    width: 152%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+  @media only screen and (min-width: 360px) and (max-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  .slideshow-container {
+  
+    width: 152%;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  }
+  
+
+
+
+/* Caption text */
+.text {
+  color: #FFFFFF;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ADB6B5;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #BFBFBF;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+* {
+    box-sizing: border-box;
+    background-color: #BFBFBF;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;    
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #31C3E7
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #21BEDE;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #21BEDE;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  /* Table design */
+
+
+  * {
+    font-family: sans-serif; /* Change your font family */
+    color: #FFFFFF
+    
+  }
+  
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 485px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #000000;
+  }
+  
+  .content-table thead tr {
+    background-color: #8CC739;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #BFC9CA;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #FFFFFF;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #8CC739;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #8CC739;
+  }
+  
+  /* End of table design */
+
+  /* Form */
+  #log form {
+    max-width: 620px;
+    margin: auto;
+    padding: 10px;
+    background: #21BEDE;
+  }
+  #log p,h1,label {
+    color: #21BEDE;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 12px;
+    width: 600px;
+  }
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #FFFFFF;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #FFFFFF;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #8CC739;
+    color: #FFFFFF;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    text-align: center;
+  }
+
+
+/* Wrapper code */
+
+body {
+  margin: 20px;
+}
+
+.sidebar {
+        grid-area: sidebar;
+    }
+
+    .sidebar2 {
+        grid-area: sidebar2;
+    }
+
+    .content {
+        grid-area: content;
+    }
+
+    .header {
+        grid-area: header;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
+    .wrapper {
+        background-color:#BFBFBF;
+        color: #444;
+    }
+
+  .wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+     "header"
+     "sidebar"
+     "content"
+     "sidebar2"
+     "footer"
+  }
+
+    @media only screen and (min-width: 500px)  {
+    .wrapper {
+
+        grid-template-columns: 20% auto;
+        grid-template-areas:
+    "header   header"
+        "sidebar  content"
+        "sidebar2 sidebar2"
+        "footer   footer";
+    }
+    }
+
+    @media only screen and (min-width: 600px)   {
+        .wrapper {
+      grid-gap: 20px;
+            grid-template-columns: 120px auto 120px;
+            grid-template-areas:
+      "header  header  header"
+            "sidebar content sidebar2"
+            "footer  footer  footer";
+            max-width: 600px;
+        }
+    }
+
+.box {
+  background-color: #444;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%; 
+}
+
+.header,
+.footer {
+  background-color:#BFBFBF;
+}
+
+.sidebar2 {
+  background-color: #BFBFBF;
+  color: #444;
+}
+    
+/* The combination of colors have been taken from colorcombo137 with hex color #8cc739 #085DAD */
